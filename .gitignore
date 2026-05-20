@@ -1,0 +1,110 @@
+﻿################################################################################
+# This .gitignore file was updated for:
+# ASP.NET Core (.NET 8) + React + Vite
+################################################################################
+
+# ==========================================
+# Build / Publish
+# ==========================================
+[Bb]in/
+[Oo]bj/
+publish/
+artifacts/
+
+# Frontend build outputs
+dist/
+build/
+
+# ==========================================
+# Visual Studio
+# ==========================================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# Rider / ReSharper
+# ==========================================
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# NuGet
+# ==========================================
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+.nuget/packages/
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep shared publish profiles if needed
+!Properties/PublishProfiles/*.pubxml
+
+# ==========================================
+# Temporary Files
+# ==========================================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+tmp/
+temp/
+
+# ==========================================
+# Generated Files
+# ==========================================
+Generated/
+Generated_Code/
+
+# ==========================================
+# BenchmarkDotNet
+# ==========================================
+BenchmarkDotNet.Artifacts/
+
+# ==========================================
+# Local Databases
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# SQL Server Database Project
+# ==========================================
+*.dbmdl
+*.jfm
+
+# ==========================================
+# Deployment Platforms
+# ==========================================
+.vercel/
+.netlify/
